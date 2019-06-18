@@ -1,5 +1,5 @@
 # B2 DC/OS Dark Theme
-Makes use of several dark greys while laregly retaining the original purple.
+Makes use of several dark greys while largely retaining the original purple.
 
 License: [CC BY - Creative Commons Attribution](https://creativecommons.org/licenses/by/4.0/)
 
