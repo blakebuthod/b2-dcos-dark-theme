@@ -1,5 +1,5 @@
 /* B2 DC/OS Dark Theme by Blake Buthod, United States
-/* Version: 2019.06.18.01
+/* Version: 2019.06.18.02
 */
 html,
 body,
@@ -231,8 +231,4 @@ table .active
     border: #333;
     border-width: 1px;
     border-style: solid;
-}
-
-{
-    color: black
 }
