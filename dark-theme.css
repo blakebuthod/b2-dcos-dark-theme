@@ -1,0 +1,238 @@
+/* B2 DC/OS Dark Theme by Blake Buthod, United States
+/* Version: 2019.06.18.01
+*/
+html,
+body,
+body > div,
+#application,
+.modal.modal-large.modal--deployments > div,
+.modal-body,
+.modal-header > h2,
+.modal.form-modal > div,
+input.form-control,
+.modal,
+.modal-large > div
+{
+    background-color: #2b2b2b !important;
+    color: white;
+}
+.sidebar-wrapper,
+.sidebar,
+.header .flex-item-shrink-0,
+.sidebar-menu-item.open,
+.sidebar-menu li,
+.panel-content.panel-cell.panel-cell-borderless.panel-cell-wider.panel-cell-taller,
+.dsl-dropdown-panel.dropdown-panel.dropdown-panel-animated.panel,
+.panel,
+.dropdown.open .dropdown-menu.inverse li.is-selectable,
+.form-control.form-control-group .typeahead.inverse .dropdown-menu .dropdown-menu-item-padding-surrogate,
+.form-control.form-control-group .typeahead.inverse .dropdown-menu .dropdown-menu-list li
+{
+    background: black;
+    background-color: black;
+}
+.table-cell-link-primary,
+.table-cell-link-secondary,
+.table th,
+.button-link,
+.breadcrumbs a,
+.menu-tabbed-item-label,
+.breadcrumb--force-ellipsis .breadcrumb__content--text a,
+.breadcrumbs,
+::placeholder,
+.configuration-map-label,
+.code-block,
+pre,
+h6,
+.dropdown-menu-item-padding-surrogate a,
+.dropdown-menu-list li a
+{
+    color: #bfbfbf !important;
+}
+.table td,
+.table th,
+.configuration-map-row+.configuration-map-row,
+.detail-view-section-heading-primary
+{
+    border-color: #666;
+}
+.table th.active,
+.table th.highlight,
+.table th.selectable:hover,
+.table td.active,
+.table td.highlight,
+.table th.active,
+.table th.highlight
+{
+    background-color: #444;
+    color: white;
+}
+tr:hover td
+{
+    background: #444 !important;
+}
+.form-control-toggle.form-control-toggle-custom .form-control-toggle-indicator
+{
+    background-color: #000;
+    border-color: #555;
+}
+.task-status-running,
+.task-status-starting,
+.text-color-neutral,
+.label:not(.button),
+label:not(.button),
+.h1.unit.flush-top,
+.collapsing-string-truncated-start,
+h1,h2,h3,h4,h5,h7,
+.h1,.h2,.h3,.h4,.h5,.h7
+.dropdown-menu li,
+.modal-full-screen-header-title,
+.button-outline.active, 
+.button-outline.selected, 
+.button.button-stroke.active, .button.button-stroke.selected
+{
+    color: white !important;
+}
+.button-outline.active,
+.button-outline.selected,
+.button.button-stroke.active,
+.button.button-stroke.selected
+{
+    text-decoration: none;
+    background-color: #555;
+    border-color: #555;
+}
+.button-group.flush-bottom > button
+{
+    border-color: #666;
+}
+.button-outline:hover,
+.button.button-stroke:hover
+{
+    background-color: #555;
+    border-color: #555;
+}
+.menu-tabbed-item-label.active,
+.menu-tabbed-item-label.selected,
+a.small,
+body .service-running-state
+{
+    color: #bf8bff !important;
+}
+.sidebar-menu li > a:active,
+.sidebar-menu li > a:hover
+{
+    background: #444;
+}
+.panel-content.panel-cell.panel-cell-narrow.panel-cell-short.panel-cell-borderless,
+.panel-footer.panel-cell.panel-cell-narrow.panel-cell-short.flush-top.text-align-center
+{
+    background: black;
+}
+.button-outline,
+.button.button-stroke
+{
+    color: white;
+    background-color: transparent;
+    border-color: #666;
+}
+.panel-header.panel-cell.panel-cell-light.panel-cell-narrow.panel-cell-shorter
+{
+    background: #555;
+    color: white;
+}
+.form-control,
+input.form-control.filter-input-text,
+.form-control.filter-input-text
+{
+    color: white !important;
+    background-color: black !important;
+    border: none;
+}
+table .active
+{
+    background-color: #333 !important;
+}
+.sidebar-menu li.selected.open > a,
+.sidebar-menu li.selected.open > a:active,
+.sidebar-menu li.selected.open > a:hover,
+.sidebar-menu li.selected > a,
+.sidebar-menu li.selected > a:active,
+.sidebar-menu li.selected > a:hover
+{
+    background: #603597;
+}
+.page-header:before
+{
+    background-color: #666;
+}
+.log-view.flex.flex-direction-top-to-bottom.flex-item-grow-1.flex-item-shrink-1 div,
+.flex-item-grow-1.flush-bottom.prettyprint
+{
+    background-color: black;
+    color: #ddd;
+}
+.text-danger, .text-danger.inverse {
+    color: #ec6c76;
+}
+.text-success, .text-success.inverse {
+    color: #69c85e;
+}
+.dropdown-menu 
+{
+    background-color: #111;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, .1), 0 2px 1px 0 rgba(255, 255, 255, .1);
+}
+.dropdown-menu-item-padding-surrogate.is-selectable:hover,
+.dropdown-menu-list li.is-selectable:hover,
+.form-control.form-control-group .typeahead .dropdown-menu .dropdown-menu-item-padding-surrogate.active,
+.form-control.form-control-group .typeahead .dropdown-menu .dropdown-menu-item-padding-surrogate:hover,
+.form-control.form-control-group .typeahead .dropdown-menu .dropdown-menu-list li.active,
+.form-control.form-control-group .typeahead .dropdown-menu .dropdown-menu-list li:hover,
+.dropdown-menu-item-padding-surrogate a:hover,
+.dropdown-menu-list li a:hover
+{
+    background-color: #666;
+}
+.dropdown-menu-item-padding-surrogate.is-selectable,
+.dropdown-menu-list li.is-selectable,
+.form-control.form-control-group .typeahead .dropdown-menu .dropdown-menu-item-padding-surrogate.active,
+.form-control.form-control-group .typeahead .dropdown-menu .dropdown-menu-item-padding-surrogate,
+.form-control.form-control-group .typeahead .dropdown-menu .dropdown-menu-list li.active,
+.form-control.form-control-group .typeahead .dropdown-menu .dropdown-menu-list li
+{
+    color: #ddd;
+}
+.fill-light
+{
+    background-color: #262c3b
+}
+.modal-full-screen .modal-header
+{
+    background: black;
+}
+.button-outline:hover, 
+.button.button-stroke:hover {
+    color: white;
+    background-color: #555;
+    border-color: #666;
+}
+.dashboard-health-list .list a {
+    color: white;
+}
+.list .list-item {
+    border-bottom: 1px solid #404040;
+}
+.form-control-group.filter-input-text-group .form-control-group-add-on-prepend .icon {
+    opacity: 1;
+}
+.tooltip .tooltip-content {
+    background: black;
+    border: #333;
+    border-width: 1px;
+    border-style: solid;
+}
+
+{
+    color: black
+}
