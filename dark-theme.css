@@ -1,17 +1,18 @@
 /* B2 DC/OS Dark Theme by Blake Buthod, United States
-/* Version: 2019.06.18.02
+/* Version: 2019.06.24.01
 */
 html,
 body,
 body > div,
 #application,
 .modal.modal-large.modal--deployments > div,
-.modal-body,
 .modal-header > h2,
 .modal.form-modal > div,
-input.form-control,
 .modal,
-.modal-large > div
+.modal-large > div,
+.modal-header,
+.modal-footer,
+.modal-body
 {
     background-color: #2b2b2b !important;
     color: white;
@@ -51,7 +52,7 @@ h6,
 }
 .table td,
 .table th,
-.configuration-map-row+.configuration-map-row,
+.configuration-map-row + .configuration-map-row,
 .detail-view-section-heading-primary
 {
     border-color: #666;
@@ -83,13 +84,23 @@ tr:hover td
 label:not(.button),
 .h1.unit.flush-top,
 .collapsing-string-truncated-start,
-h1,h2,h3,h4,h5,h7,
-.h1,.h2,.h3,.h4,.h5,.h7
-.dropdown-menu li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h7,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h7 .dropdown-menu li,
 .modal-full-screen-header-title,
-.button-outline.active, 
-.button-outline.selected, 
-.button.button-stroke.active, .button.button-stroke.selected
+.button-outline.active,
+.button-outline.selected,
+.button.button-stroke.active,
+.button.button-stroke.selected
 {
     color: white !important;
 }
@@ -172,13 +183,17 @@ table .active
     background-color: black;
     color: #ddd;
 }
-.text-danger, .text-danger.inverse {
+.text-danger,
+.text-danger.inverse
+{
     color: #ec6c76;
 }
-.text-success, .text-success.inverse {
+.text-success,
+.text-success.inverse
+{
     color: #69c85e;
 }
-.dropdown-menu 
+.dropdown-menu
 {
     background-color: #111;
     box-shadow: 0 0 0 1px rgba(255, 255, 255, .1), 0 2px 1px 0 rgba(255, 255, 255, .1);
@@ -211,24 +226,32 @@ table .active
 {
     background: black;
 }
-.button-outline:hover, 
-.button.button-stroke:hover {
+.button-outline:hover,
+.button.button-stroke:hover
+{
     color: white;
     background-color: #555;
     border-color: #666;
 }
-.dashboard-health-list .list a {
+.dashboard-health-list .list a
+{
     color: white;
 }
-.list .list-item {
+.list .list-item
+{
     border-bottom: 1px solid #404040;
 }
-.form-control-group.filter-input-text-group .form-control-group-add-on-prepend .icon {
+.form-control-group.filter-input-text-group .form-control-group-add-on-prepend .icon
+{
     opacity: 1;
 }
-.tooltip .tooltip-content {
+.tooltip .tooltip-content
+{
     background: black;
     border: #333;
     border-width: 1px;
     border-style: solid;
+}
+.toggle-button+span:before {
+    border: 1px solid rgba(255,255,255,.4);
 }
