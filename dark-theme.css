@@ -1,5 +1,5 @@
 /* B2 DC/OS Dark Theme by Blake Buthod, United States
-/* Version: 2019.06.24.01
+/* Version: 2019.06.30.01
 */
 html,
 body,
@@ -46,7 +46,8 @@ body > div,
 pre,
 h6,
 .dropdown-menu-item-padding-surrogate a,
-.dropdown-menu-list li a
+.dropdown-menu-list li a,
+body > div
 {
     color: #bfbfbf !important;
 }
@@ -72,7 +73,9 @@ tr:hover td
 {
     background: #444 !important;
 }
-.form-control-toggle.form-control-toggle-custom .form-control-toggle-indicator
+.form-control-toggle.form-control-toggle-custom .form-control-toggle-indicator,
+.well,
+ol.breadcrumb
 {
     background-color: #000;
     border-color: #555;
@@ -252,6 +255,75 @@ table .active
     border-width: 1px;
     border-style: solid;
 }
-.toggle-button+span:before {
-    border: 1px solid rgba(255,255,255,.4);
+.toggle-button + span:before
+{
+    border: 1px solid rgba(255, 255, 255, .4);
+}
+.table-striped > tbody > tr:nth-of-type(2n+1)
+{
+    background-color: #121212;
+}
+.pagination > .disabled > a,
+.pagination > .disabled > a:focus,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > span,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > span:hover
+{
+    color: #666;
+    background-color: #000;
+    border-color: #555;
+}
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover,
+.input-group-addon
+{
+    color: #fff;
+    background-color: #666;
+    border-color: #777;
+}
+.pagination > li > a,
+.pagination > li > span
+{
+    color: #b1b1b1;
+    background-color: #000;
+    border: 1px solid #555;
+}
+.table-bordered > tbody > tr > td,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > td,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > thead > tr > th
+{
+    border: 1px solid #777;
+    border-top-color: rgb(0, 0, 0);
+}
+.table-bordered
+{
+    border: 1px solid #777;
+}
+a:focus,
+a:hover
+{
+    color: #56a2e6;
+}
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th
+{
+    border-top: 1px solid #777;
+}
+.btn-default
+{
+    color: #333;
+    background-color: #b5b5b5;
+    border-color: #cdcdcd;
 }
