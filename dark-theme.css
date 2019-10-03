@@ -1,5 +1,5 @@
 /* B2 DC/OS Dark Theme by Blake Buthod, United States
-/* Version: 2019.07.30.01
+/* Version: 2019.10.03.01
 */
 html,
 body,
@@ -217,9 +217,20 @@ table .active
 .form-control.form-control-group .typeahead .dropdown-menu .dropdown-menu-item-padding-surrogate.active,
 .form-control.form-control-group .typeahead .dropdown-menu .dropdown-menu-item-padding-surrogate,
 .form-control.form-control-group .typeahead .dropdown-menu .dropdown-menu-list li.active,
-.form-control.form-control-group .typeahead .dropdown-menu .dropdown-menu-list li
+.form-control.form-control-group .typeahead .dropdown-menu .dropdown-menu-list li,
+.button,
+button,
+.icon.icon-neutral
 {
     color: #ddd;
+}
+.button.button-dropdown::after,
+.button.dropdown-toggle::after,
+.dropdown-toggle.button-split-content .button-split-content-wrapper::after,
+button.button-dropdown::after,
+button.dropdown-toggle::after
+{
+    border-color: #ddd transparent transparent transparent;
 }
 .fill-light
 {
@@ -308,7 +319,9 @@ table .active
     border: 1px solid #777;
 }
 a:focus,
-a:hover
+a:hover,
+.button:hover,
+button:hover
 {
     color: #56a2e6;
 }
