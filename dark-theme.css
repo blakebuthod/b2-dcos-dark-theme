@@ -1,5 +1,5 @@
 /* B2 DC/OS Dark Theme by Blake Buthod, United States
-/* Version: 2019.10.03.01
+/* Version: 2019.12.09.01
 */
 html,
 body,
@@ -12,10 +12,11 @@ body > div,
 .modal-large > div,
 .modal-header,
 .modal-footer,
-.modal-body
+.modal-body,
+.breadcrumb.list.list-inline.list-unstyled.h4.flush-top.flush-left
 {
     background-color: #2b2b2b !important;
-    color: white;
+    color: white !important;
 }
 .sidebar-wrapper,
 .sidebar,
@@ -47,7 +48,9 @@ pre,
 h6,
 .dropdown-menu-item-padding-surrogate a,
 .dropdown-menu-list li a,
-body > div
+body > div,
+.form-control.form-control-select select,
+.breadcrumb a
 {
     color: #bfbfbf !important;
 }
@@ -72,6 +75,10 @@ body > div
 tr:hover td
 {
     background: #444 !important;
+}
+.table-virtual-list tr.selected td
+{
+    background: #575757 !important;
 }
 .form-control-toggle.form-control-toggle-custom .form-control-toggle-indicator,
 .well,
@@ -161,7 +168,7 @@ input.form-control.filter-input-text,
 {
     color: white !important;
     background-color: black !important;
-    border: none;
+    border: solid 1px #555;
 }
 table .active
 {
@@ -339,4 +346,30 @@ button:hover
     color: #333;
     background-color: #b5b5b5;
     border-color: #cdcdcd;
+}
+.button.go-to-bottom-button
+{
+    background-color: #444;
+    border-color: #6d6d6d;
+}
+.button-collection.flush-bottom button
+{
+    color: #323232 !important;
+}
+.gm-scrollbar .thumb
+{
+    background-color: #d3d3d3;
+    opacity: .3;
+    -webkit-transition: opacity .2s ease;
+    transition: opacity .2s ease;
+}
+input.form-control.filter-input-text
+{
+    border-top: solid 1px #555 !important;
+    border-bottom: solid 1px #555 !important;
+}
+input.form-control.filter-input-text:focus
+{
+    border-top: solid 1px #9351e5 !important;
+    border-bottom: solid 1px #9351e5 !important;
 }
